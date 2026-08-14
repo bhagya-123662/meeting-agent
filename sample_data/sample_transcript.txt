@@ -1,0 +1,31 @@
+Meeting: Q3 Product Launch Sync
+Date: 2026-08-10
+Attendees: Priya Sharma (PM), Rohan Mehta (Engineering Lead), Ananya Iyer (Design), Karan Verma (Marketing)
+
+Priya Sharma: Thanks everyone for joining. Let's do a quick status check on the Q3 launch. Rohan, where are we with the backend migration?
+
+Rohan Mehta: The migration to the new payments service is about 80% done. We hit a snag with the webhook retries, but I think we can close that out by early next week. I'll own fixing the webhook retry bug and aim to have it done by August 14th.
+
+Priya Sharma: Great, thanks. Ananya, how's the onboarding flow redesign coming along?
+
+Ananya Iyer: The new onboarding screens are ready for review. I've shared the Figma link in the design channel. I'd like engineering sign-off before we finalize. Rohan, can your team review the designs by August 13th?
+
+Rohan Mehta: Yes, I'll assign someone from the team to review by then. Actually, let's say I'll personally review it and get back to you by the 13th.
+
+Priya Sharma: Perfect. Karan, what's the status on the marketing campaign?
+
+Karan Verma: We're on track. The landing page copy is finalized, and the email sequence is drafted. I need final screenshots of the new onboarding flow before I can finish the launch email. Ananya, can you send those over once the designs are approved?
+
+Ananya Iyer: Sure, I'll send the final screenshots to Karan by August 15th, assuming Rohan's review doesn't require major changes.
+
+Karan Verma: Sounds good. Also, we decided in last week's meeting to push the launch date from August 20th to August 25th to give engineering more buffer. Just confirming that's still the plan.
+
+Priya Sharma: Yes, confirmed — launch date is officially August 25th. I'll update the roadmap doc and notify stakeholders today.
+
+Rohan Mehta: One more thing — we decided to deprioritize the dark mode feature for this release. It'll move to the Q4 backlog instead.
+
+Priya Sharma: Agreed. Karan, can you also prepare a one-pager summary for leadership by August 18th, covering the launch scope and timeline?
+
+Karan Verma: Yes, I'll have that ready by the 18th.
+
+Priya Sharma: Great, thanks everyone. Let's reconvene next Monday for a final pre-launch check.

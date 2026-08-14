@@ -1,0 +1,57 @@
+{
+  "meeting_title": "Q3 Product Launch Sync",
+  "meeting_date": "2026-08-10",
+  "attendees": [
+    "Priya Sharma (PM)",
+    "Rohan Mehta (Engineering Lead)",
+    "Ananya Iyer (Design)",
+    "Karan Verma (Marketing)"
+  ],
+  "summary": "The team conducted a status check on the upcoming Q3 product launch. Engineering reported that backend payments migration is nearly complete, with a webhook retry fix underway. Design completed the onboarding flow redesign and requested engineering review. Marketing confirmed that copy and email drafts are ready, pending final product screenshots. Additionally, the team reconfirmed the updated launch date and the deprioritization of dark mode.",
+  "key_decisions": [
+    "Confirmed the official product launch date is pushed to August 25, 2026.",
+    "Decided to deprioritize the dark mode feature for Q3 and move it to the Q4 backlog."
+  ],
+  "discussion_points": [
+    "Progress on the backend migration to the new payments service (currently at 80%).",
+    "Review of the new onboarding flow screens shared in Figma.",
+    "Marketing campaign assets status, including landing page copy and email sequences."
+  ],
+  "action_items": [
+    {
+      "task": "Fix the webhook retry bug in the payments service migration",
+      "owner": "Rohan Mehta",
+      "due_date": "2026-08-14",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "task": "Personally review and provide sign-off on the new onboarding flow designs in Figma",
+      "owner": "Rohan Mehta",
+      "due_date": "2026-08-13",
+      "priority": "medium",
+      "status": "open"
+    },
+    {
+      "task": "Send final onboarding screenshots to Karan for the launch email",
+      "owner": "Ananya Iyer",
+      "due_date": "2026-08-15",
+      "priority": "medium",
+      "status": "open"
+    },
+    {
+      "task": "Update the roadmap document and notify stakeholders about the August 25th launch date",
+      "owner": "Priya Sharma",
+      "due_date": "2026-08-10",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "task": "Prepare a one-pager launch summary for leadership covering scope and timeline",
+      "owner": "Karan Verma",
+      "due_date": "2026-08-18",
+      "priority": "medium",
+      "status": "open"
+    }
+  ]
+}
