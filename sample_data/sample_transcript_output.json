@@ -7,15 +7,15 @@
     "Ananya Iyer (Design)",
     "Karan Verma (Marketing)"
   ],
-  "summary": "The team conducted a status check on the upcoming Q3 product launch. Engineering reported that backend payments migration is nearly complete, with a webhook retry fix underway. Design completed the onboarding flow redesign and requested engineering review. Marketing confirmed that copy and email drafts are ready, pending final product screenshots. Additionally, the team reconfirmed the updated launch date and the deprioritization of dark mode.",
+  "summary": "The team reviewed status across engineering, design, and marketing ahead of the Q3 launch. Backend payments migration is nearly complete pending a webhook retry fix, the onboarding redesign is ready for engineering review, and the marketing campaign is on track pending final screenshots. The team confirmed the launch date has moved to August 25th and agreed to deprioritize dark mode to the Q4 backlog.",
   "key_decisions": [
-    "Confirmed the official product launch date is pushed to August 25, 2026.",
-    "Decided to deprioritize the dark mode feature for Q3 and move it to the Q4 backlog."
+    "Launch date is officially confirmed as August 25, 2026 (moved from August 20).",
+    "Dark mode feature is deprioritized from this release and moved to the Q4 backlog."
   ],
   "discussion_points": [
-    "Progress on the backend migration to the new payments service (currently at 80%).",
-    "Review of the new onboarding flow screens shared in Figma.",
-    "Marketing campaign assets status, including landing page copy and email sequences."
+    "Backend migration to the new payments service is roughly 80% complete.",
+    "Onboarding redesign screens are ready for engineering sign-off in Figma.",
+    "Marketing landing page copy is finalized and the email sequence is drafted, pending final onboarding screenshots."
   ],
   "action_items": [
     {
@@ -26,28 +26,28 @@
       "status": "open"
     },
     {
-      "task": "Personally review and provide sign-off on the new onboarding flow designs in Figma",
+      "task": "Review the new onboarding screens in Figma and give engineering sign-off",
       "owner": "Rohan Mehta",
       "due_date": "2026-08-13",
-      "priority": "medium",
+      "priority": "high",
       "status": "open"
     },
     {
-      "task": "Send final onboarding screenshots to Karan for the launch email",
+      "task": "Send final onboarding flow screenshots to Karan for the launch email",
       "owner": "Ananya Iyer",
       "due_date": "2026-08-15",
       "priority": "medium",
       "status": "open"
     },
     {
-      "task": "Update the roadmap document and notify stakeholders about the August 25th launch date",
+      "task": "Update the roadmap doc and notify stakeholders of the new August 25th launch date",
       "owner": "Priya Sharma",
       "due_date": "2026-08-10",
-      "priority": "high",
+      "priority": "medium",
       "status": "open"
     },
     {
-      "task": "Prepare a one-pager launch summary for leadership covering scope and timeline",
+      "task": "Prepare a one-pager summary for leadership covering launch scope and timeline",
       "owner": "Karan Verma",
       "due_date": "2026-08-18",
       "priority": "medium",

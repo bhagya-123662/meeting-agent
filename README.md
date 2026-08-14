@@ -23,7 +23,7 @@ transcript.txt
 System prompt + a native response_schema define the extraction contract
       │
       ▼
-Gemini (gemini-2.5-flash) reads the transcript and returns schema-conformant JSON
+Gemini (gemini-3.7-flash) reads the transcript and returns schema-conformant JSON
       │
       ▼
 Response is parsed & validated (json.loads, with fence-stripping fallback)
@@ -85,13 +85,27 @@ python agent.py --input path/to/your_transcript.txt --out-dir my_output/
 Any plain-text transcript works — speaker-labeled ("Name: text") transcripts give the best
 owner-attribution results, but the agent will still extract what it can from unlabeled text.
 
+### 5. Visual demo (optional UI)
+
+A minimal Streamlit UI is included for demoing the agent visually — paste or upload a transcript,
+click Analyze, and see the structured summary + action-item table rendered live, with JSON/Markdown
+download buttons. It calls the exact same `call_gemini()` / `render_markdown()` functions as the
+CLI — no separate logic path, so what you see in the UI is what the CLI produces.
+
+```bash
+streamlit run app.py
+```
+
+This opens a browser tab at `http://localhost:8501`. Your `.env` key is picked up automatically,
+or you can paste a key directly into the sidebar.
+
 ### Optional flags
 
 | Flag | Description | Default |
 |------|-------------|---------|
 | `--input` / `-i` | Path to transcript `.txt` file | required |
 | `--out-dir` / `-o` | Output directory | `output/` |
-| `--model` / `-m` | Gemini model name | `gemini-2.5-flash` (or `$GEMINI_MODEL`) |
+| `--model` / `-m` | Gemini model name | `gemini-3.7-flash` (or `$GEMINI_MODEL`) |
 
 ---
 
@@ -134,6 +148,7 @@ These let a reviewer diff their own run against a known-good result.
 ```
 meeting-agent/
 ├── agent.py                 # CLI entry point (prompting, parsing, rendering)
+├── app.py                   # Streamlit UI (visual demo, reuses agent.py functions)
 ├── requirements.txt
 ├── .env.example
 ├── README.md
