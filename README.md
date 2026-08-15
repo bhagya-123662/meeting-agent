@@ -163,7 +163,7 @@ meeting-agent/
 
 - `agent.py` is a single file, deliberately, so every line is easy to walk through:
   - `SYSTEM_PROMPT` / `USER_PROMPT_TEMPLATE`: define the extraction contract
-  - `call_claude()`: makes the API call, strips markdown fences defensively, parses JSON
+  -  `call_gemini()`: makes the API call, strips markdown fences defensively, parses JSON
   - `render_markdown()`: pure function, converts the parsed dict into a readable `.md` report
   - `main()`: CLI wiring (argparse, file I/O, error handling)
 
